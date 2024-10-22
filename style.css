@@ -1,0 +1,151 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(226, 43%, 10%);
+  gap: 20px;
+}
+
+.profile-card {
+  width: 300px;
+  height: 450px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: 300px 150px;
+}
+
+.upper-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 25px;
+}
+
+.upper-card img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+  color: #f0f0f0;
+}
+
+.content p {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.content h2 {
+  font-size: 40px;
+  margin-top: 5px;
+  font-weight: 800;
+}
+
+.lower-card {
+  padding-left: 25px;
+  font-size: 18px;
+  color: #f0f0f0;
+}
+
+.activity-cards {
+  width: 600px;
+  height: 450px;
+  background-color: transparent;
+  display: grid;
+  grid-template-rows: repeat(2, 210px);
+  row-gap: 30px;
+}
+
+.activity-cards .upper-row,
+.activity-cards .lower-row {
+  display: grid;
+  grid-template-columns: repeat(3, 180px);
+  column-gap: 20px;
+}
+
+.card {
+  border-radius: 25px;
+}
+
+.img-1 {
+  width: auto;
+  height: 35px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: right;
+  background-color: hsl(43, 84%, 65%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.img-1 img {
+  width: 40px;
+  height: 35px;
+}
+
+/* Specific colors for the small icon sections */
+.work-card .img-1 {
+  background-color: hsl(15, 100%, 70%);
+}
+
+.play-card .img-1 {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.study-card .img-1 {
+  background-color: hsl(348, 100%, 68%);
+}
+
+.exercise-card .img-1 {
+  background-color: hsl(145, 58%, 55%);
+}
+
+.social-card .img-1 {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.selfcare-card .img-1 {
+  background-color: hsl(43, 84%, 65%);
+}
+
+.content-1 {
+  background-color: hsl(235, 46%, 20%);
+  padding: 15px;
+  color: #ffffff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+
+.icons h2 {
+  font-size: 20px;
+}
+
+.icons img {
+  height: 5px;
+}
+
+.icons-1 h2 {
+  font-size: 17px;
+}
